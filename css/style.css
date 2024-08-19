@@ -12,7 +12,8 @@ body {
   font-family: system-ui;
   font-size: 1.25rem;
   color: white;
-  background: #121212;
+  background-image: url(blueMetallicBackground.jpg);
+  background-size: 100% auto;
 }
 
 img,
@@ -36,16 +37,10 @@ svg {
 .page-header {
   padding-block: 5rem;
   margin-block-end: 5rem;
-  background-image: url("https://images.unsplash.com/photo-1641353989082-9b15fa661805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0MzM5ODcyOA&ixlib=rb-1.2.1&q=80&w=1200"),
-    linear-gradient(-25deg, rgb(0 0 0 / 0), rgb(0 0 0 / 1) 50%);
+  background-image: linear-gradient(-25deg, rgb(0 0 0 / 0), rgb(0 0 0 / 1) 50%);
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
-}
-
-.page-title {
-  font-size: 4rem;
-  margin: 0;
 }
 
 .section-title {
@@ -54,7 +49,7 @@ svg {
 
 /* media scroller */
 
-.media-container {
+/* .media-container {
   position: relative;
 }
 
@@ -140,11 +135,11 @@ svg {
   .media-group:first-of-type
   .next {
   display: none;
-}
+} */
 
 /* navigation indicators */
 
-.navigation-indicators {
+/* .navigation-indicators {
   opacity: 0;
   position: absolute;
   display: flex;
@@ -186,4 +181,6 @@ svg {
 
 .media-scroller:hover .navigation-indicators {
   opacity: 1;
-}
+} */
+
+
